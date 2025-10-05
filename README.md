@@ -2,6 +2,21 @@
 
 Một giao diện đẹp với nhiều hiệu ứng động được tạo bằng HTML, CSS, JavaScript thuần, mô phỏng giao diện TikTok với chủ đề Trung Thu.
 
+## 🎵 **Hướng dẫn thêm nhạc**
+
+⚠️ **LưU Ý BẢN QUYỀN**: File nhạc KHÔNG được upload lên GitHub vì lý do bản quyền.
+
+### Để thêm nhạc:
+1. Tải file nhạc về máy (định dạng MP3/M4A)
+2. Đặt vào thư mục `assets/background-music.mp3`  
+3. Chạy local server để test
+4. **KHÔNG** push file nhạc lên Git
+
+### Nhạc được khuyến khích:
+- [Freesound.org](https://freesound.org) - Nhạc miễn phí
+- [YouTube Audio Library](https://studio.youtube.com/channel/music) - Nhạc royalty-free
+- [Incompetech](https://incompetech.com) - Nhạc Creative Commons
+
 ## ✨ Tính năng
 
 - **Particle System**: Hệ thống hạt tạo hình trái tim xanh với hiệu ứng glow

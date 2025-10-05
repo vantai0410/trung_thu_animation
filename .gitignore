@@ -4,6 +4,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Audio files - KHÔNG upload vì có thể có bản quyền
+*.mp3
+*.m4a
+*.wav
+*.flac
+assets/background-music.*
+
 # Production builds
 dist/
 build/

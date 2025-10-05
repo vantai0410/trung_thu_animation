@@ -1,5 +1,14 @@
 <!DOCTYPE html>
-<html lang="vi">
+<ht    <!-- Background Music - Auto Play -->
+    <audio id="background-music" loop preload="auto" autoplay>
+      <!-- File nhạc local - bạn cần đặt file vào thư mục assets -->
+      <source src="./assets/background-music.mp3" type="audio/mpeg">
+      <source src="./assets/background-music.m4a" type="audio/mp4">
+      <!-- Fallback nếu không có file local -->
+      <source
+        src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"
+        type="audio/mpeg"
+      />i">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,10 +21,28 @@
 
     <!-- Performance Optimization -->
     <script defer src="performance.js"></script>
+    <script defer src="audio.js"></script>
+    <script defer src="autoplay-music.js"></script>
   </head>
   <body class="bg-black overflow-hidden">
     <!-- Main Canvas Container -->
     <div id="canvas-container" class="absolute inset-0"></div>
+
+    <!-- Background Music - Auto Play -->
+    <audio id="background-music" loop preload="auto" autoplay>
+      <!-- File nhạc local - bạn cần đặt file vào thư mục assets -->
+      <source src="./assets/background-music.mp3" type="audio/mpeg" />
+      <source src="./assets/background-music.m4a" type="audio/mp4" />
+      <!-- Fallback nếu không có file local -->
+      <source
+        src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+      type="audio/mpeg" />
+      <!-- Local fallback nếu có -->
+      <source src="./assets/trung-thu-music.mp3" type="audio/mpeg" />
+    </audio>
 
     <!-- Particle Heart -->
     <canvas
@@ -36,5 +63,6 @@
     <!-- Scripts -->
     <script src="particles.js"></script>
     <script src="animations.js"></script>
+    <script src="autoplay-music.js"></script>
   </body>
 </html>
